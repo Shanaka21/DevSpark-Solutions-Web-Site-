@@ -1,6 +1,6 @@
 Assignment 4 – Web Application Development (DevSpark)
-Student: Shanaka (replace with full name)
-Index No: IT22023 (replace with your exact index)
+Student: R.M.S.S.Rathnayaka
+Index No: ITBNM-2211-0179
 Module: IT22023 - Web Application Development
 
 Website URL: https://YOURNAMEYOURINDEXNO.000webhostapp.com/ (replace after hosting)
@@ -25,7 +25,7 @@ Validation Covered:
 Branding:
 - Site Name: DevSpark
 - Email: devsparksolutions@gmail.com
-- Phone: +94 7X XXX XXXX  (TODO: replace with your real number in contact.html)
+- Phone: +94 7X XXX XXXX 
 - Location: Colombo, Sri Lanka
 
 Hosting (000webhost quick steps):
@@ -34,7 +34,7 @@ Hosting (000webhost quick steps):
 - Test on your free domain.
 
 Folder Structure:
-DevSpark_Site_IT22023.zip
+DevSpark
 └── Source_Code/
     ├── index.html
     ├── about.html
@@ -45,4 +45,5 @@ DevSpark_Site_IT22023.zip
     │   └── style.css
     ├── js/
     │   └── validation.js
-    └── images/ (place assets here if needed)
+    └── images/
+
