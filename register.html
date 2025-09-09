@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | DevSpark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">DevSpark</a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li><a href="services.html" class="">Services</a></li>
+        <li><a href="register.html" class="active">Register</a></li>
+        <li><a href="contact.html" class="">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('mainNav').classList.toggle('open')">&#9776;</button>
+  </div>
+</header>
+<main class="site-main">
+
+<section class="form-page container narrow">
+  <h1>Create an Account</h1>
+  <form id="registerForm" onsubmit="return validateRegisterForm()">
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone" name="phone" placeholder="e.g. 0771234567">
+    </div>
+    <div class="form-group">
+      <label for="nic">NIC Number</label>
+      <input type="text" id="nic" name="nic" placeholder="Enter your NIC number">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Create a password">
+      <small id="pwdStrength" class="muted">Strength: —</small>
+    </div>
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter password">
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+  </form>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2025 DevSpark. All Rights Reserved.</p>
+    <div class="social">
+      <a href="mailto:devsparksolutions@gmail.com">Email</a>
+      <a href="#" title="LinkedIn (add yours)">LinkedIn</a>
+      <a href="#" title="GitHub (add yours)">GitHub</a>
+    </div>
+  </div>
+</footer>
+<script src="js/validation.js"></script>
+</body>
+</html>

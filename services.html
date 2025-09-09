@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | DevSpark</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">DevSpark</a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="register.html" class="">Register</a></li>
+        <li><a href="contact.html" class="">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.getElementById('mainNav').classList.toggle('open')">&#9776;</button>
+  </div>
+</header>
+<main class="site-main">
+
+<section class="page-hero container narrow">
+  <h1>Our Services</h1>
+  <p>Modern, scalable, and creative web solutions tailored to your business.</p>
+</section>
+
+<section class="services-grid container">
+  <article class="service-card">
+    <h3>🌐 Website Development</h3>
+    <p>Custom websites using modern stacks to showcase your brand and convert visitors.</p>
+  </article>
+  <article class="service-card">
+    <h3>🛒 E‑Commerce</h3>
+    <p>Secure, user-friendly stores with payment integration to grow revenue.</p>
+  </article>
+  <article class="service-card">
+    <h3>⚡ Optimization</h3>
+    <p>Improve Core Web Vitals, Lighthouse scores, and SEO for better ranking.</p>
+  </article>
+  <article class="service-card">
+    <h3>📱 Responsive UX</h3>
+    <p>Designs that look and feel great on every device.</p>
+  </article>
+</section>
+
+<section class="pricing container">
+  <h2>Simple Pricing</h2>
+  <div class="pricing-grid">
+    <div class="price-card">
+      <h3>Starter</h3>
+      <p class="price">LKR 45,000+</p>
+      <ul>
+        <li>Up to 3 pages</li>
+        <li>Mobile responsive</li>
+        <li>Basic SEO</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Start</a>
+    </div>
+    <div class="price-card featured">
+      <h3>Pro</h3>
+      <p class="price">LKR 95,000+</p>
+      <ul>
+        <li>Up to 8 pages</li>
+        <li>Blog/Portfolio</li>
+        <li>Performance tuning</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Go Pro</a>
+    </div>
+    <div class="price-card">
+      <h3>Business</h3>
+      <p class="price">Custom</p>
+      <ul>
+        <li>E‑commerce / Web app</li>
+        <li>Admin dashboard</li>
+        <li>Ongoing support</li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary">Contact</a>
+    </div>
+  </div>
+</section>
+
+<section class="feedback-section container narrow">
+  <h2>We Value Your Feedback</h2>
+  <form id="feedbackForm" onsubmit="return validateFeedbackForm()">
+    <div class="form-group">
+      <label for="fb_name">Full Name</label>
+      <input type="text" id="fb_name" name="name" placeholder="Enter your full name">
+    </div>
+    <div class="form-group">
+      <label for="fb_email">Email Address</label>
+      <input type="email" id="fb_email" name="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+      <label for="fb_phone">Phone Number</label>
+      <input type="text" id="fb_phone" name="phone" placeholder="e.g. 0771234567">
+    </div>
+    <div class="form-group">
+      <label for="fb_feedback">Your Feedback</label>
+      <textarea id="fb_feedback" name="feedback" rows="4" placeholder="Type your feedback here..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+    <div id="toast" class="toast" aria-live="polite"></div>
+  </form>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; 2025 DevSpark. All Rights Reserved.</p>
+    <div class="social">
+      <a href="mailto:devsparksolutions@gmail.com">Email</a>
+      <a href="#" title="LinkedIn (add yours)">LinkedIn</a>
+      <a href="#" title="GitHub (add yours)">GitHub</a>
+    </div>
+  </div>
+</footer>
+<script src="js/validation.js"></script>
+</body>
+</html>
