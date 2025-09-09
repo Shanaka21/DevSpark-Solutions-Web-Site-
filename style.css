@@ -101,3 +101,7 @@ textarea{resize:vertical}
 .site-footer{border-top:1px solid rgba(255,255,255,.06);margin-top:40px}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;padding:18px 0;gap:12px;flex-wrap:wrap}
 .footer-inner .social a{margin-right:10px}
+
+.toast { display:none; padding:10px; margin-top:8px; border-radius:6px; font-size:0.95rem; box-shadow:0 2px 6px rgba(0,0,0,0.12);}
+.toast.success { background:#e8f7ea; color:#0b6b2f; border:1px solid #bfe6c6; }
+.toast.error   { background:#ffecec; color:#8b1b1b; border:1px solid #f2b7b7; }
